@@ -1,0 +1,25 @@
+<!--<hibernate-configuration>-->
+    <!--<session-factory>-->
+
+        <!--&lt;!&ndash; Database connection setting &ndash;&gt;-->
+        <!--<property name="connection.driver_class">org.h2.Driver</property>-->
+        <!--<property name="connection.url">jdbc:h2:./data/contactmgr</property>-->
+
+        <!--&lt;!&ndash; SQL dialect &ndash;&gt;-->
+        <!--<property name="dialect">org.hibernate.dialect.H2Dialect</property>-->
+
+        <!--&lt;!&ndash; Update the database schema on startup &ndash;&gt;-->
+        <!--&lt;!&ndash;hibernate mapping to 'data definition language'(hbm2ddl)&ndash;&gt;-->
+        <!--<property name="hbm2ddl.auto">update</property>-->
+
+        <!--&lt;!&ndash; create the database schema on startup &ndash;&gt;-->
+        <!--&lt;!&ndash;<property name="hbm2ddl.auto">create</property>&ndash;&gt;-->
+
+        <!--&lt;!&ndash; Show the queries prepared by Hibernate &ndash;&gt;-->
+        <!--<property name="show_sql">true</property>-->
+
+        <!--&lt;!&ndash; Names the annotated entity classes &ndash;&gt;-->
+        <!--<mapping class="com.teamtreehouse.contactmgr.model.Contact" />-->
+
+    <!--</session-factory>-->
+<!--</hibernate-configuration>-->
