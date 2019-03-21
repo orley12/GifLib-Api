@@ -46,30 +46,6 @@ public class GifController {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-        ResponseEntity<Object> responseEntity = null;
-//        try {
-//            gif.setBytes(file.getBytes());
-//            gifRepository.save(gif);
-            responseEntity = ResponseEntity.status(HttpStatus.CREATED).body(null);
-//        } catch (IOException e) {
-//            responseEntity = ResponseEntity.status(HttpStatus.BAD_REQUEST).body(null);
-//            System.err.println("Unable to get byte array from file");
-//        }
-
-//        List<String> producers = gifRepository.listProducers();
-
-//        //
-//        // do some intermediate processing, logging, etc. with the producers
-//        //
-//
-//        Resources<String> resources = new Resources<String>(producers);
-//
-//        resources.add(linkTo(methodOn(GifController.class).getProducers()).withSelfRel());
-//
-//        // add other links as needed
-//
-//        return ResponseEntity.ok(resources);
         return gif;
     }
 
