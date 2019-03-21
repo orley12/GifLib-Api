@@ -62,4 +62,5 @@ public class Category extends BaseEntity {
                 ", gifs=" + gifs +
                 '}';
     }
+
 }

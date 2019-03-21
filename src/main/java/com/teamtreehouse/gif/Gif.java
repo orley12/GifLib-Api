@@ -16,8 +16,7 @@ public class Gif extends BaseEntity {
 
     private String description;
 
-    @Lob
-    private byte[] bytes;
+    private String url;
 
     @ManyToOne
     @NotNull
@@ -65,12 +64,12 @@ public class Gif extends BaseEntity {
         this.description = description;
     }
 
-    public byte[] getBytes() {
-        return bytes;
+    public String getUrl() {
+        return url;
     }
 
-    public void setBytes(byte[] bytes) {
-        this.bytes = bytes;
+    public void setUrl(String url) {
+        this.url = url;
     }
 
     public Category getCategory() {

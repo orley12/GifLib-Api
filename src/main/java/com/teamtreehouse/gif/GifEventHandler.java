@@ -21,7 +21,7 @@
 //
 //    public void convertMultipartFileToBytes(Gif gif, @RequestParam MultipartFile file){
 //        try {
-//            gif.setBytes(file.getBytes());
+//            gif.setUrl(file.getUrl());
 //            gifRepository.save(gif);
 //        } catch (IOException e) {
 //            System.err.println("Unable to get byte array from file");
